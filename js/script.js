@@ -5,8 +5,13 @@ viewer.add(panorama);
 
 // add infospot 
 const infospot = new PANOLENS.Infospot(350, PANOLENS.DataImage.Info);
-infospot.position.set(0, -2000, -5000);
+infospot.position.set(0, -2000, -8000);
 infospot.addHoverText('SHIVANI U ROCK',40);
 
-panorama.add(infospot);
 
+const anotherInfospot = new PANOLENS.Infospot(350, PANOLENS.DataImage.Info);
+anotherInfospot.position.set(0, -3000, -2000);
+anotherInfospot.addHoverText('MINDY U ROCK', 40);
+
+panorama.add(infospot);
+panorama.add(anotherInfospot);
