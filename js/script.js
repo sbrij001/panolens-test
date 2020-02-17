@@ -1,7 +1,7 @@
 const container = document.getElementById('container')
 
-const panorama = new PANOLENS.ImagePanorama('../assets/images/49479880741_806baa3828_o.jpg');
-const panorama2 = new PANOLENS.ImagePanorama('../assets/images/36499415834_44c18602cf_o.jpg');
+const panorama = new PANOLENS.ImagePanorama('../assets/images/INSTA360PRO-Test03.2 (Neat Enabled).jpg');
+const panorama2 = new PANOLENS.ImagePanorama('../assets/images/INSTA360PRO-Test02.2 (Neat Enabled).jpg');
 
 // viewers I am assuming is where the panoramas will be viewed 
 const viewer = new PANOLENS.Viewer({container:container});
