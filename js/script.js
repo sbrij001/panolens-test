@@ -14,7 +14,7 @@ infospot.addHoverText("Click to view another image", 40);
 
 const anotherInfospot = new PANOLENS.Infospot(350, PANOLENS.DataImage.Info);
 anotherInfospot.position.set(0, -3000, -2000);
-anotherInfospot.addHoverText('MINDY U ROCK', 40);
+anotherInfospot.addHoverText('Test Spot', 40);
 
 panorama.add(infospot, anotherInfospot);
 
